@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trizajn</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script type="module"
+        src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+    </script>
+</head>
+
+<body class="home-page">
+
+<header>
+    <div class="logo-container">
+        <img src="slike/TrizajnLogoSajt.png" alt="Trizajn logo" class="logo-img">
+        <div class="logo-text">Trizajn</div>
+    </div>
+
+    <nav>
+        <a href="index.html" data-i18n="nav.home">Početna</a>
+        <a href="product1.html" data-i18n="nav.products">Proizvodi</a>
+        <button class="lang-btn" id="langToggle" type="button" aria-label="Switch language">EN</button>
+    </nav>
+</header>
+
+<main class="trizajn-home">
+
+    <section class="trizajn-hero">
+
+        <div class="hero-copy">
+            <p class="eyebrow" data-i18n="home.eyebrow">UKLONJIVI DODACI ZA GITARU</p>
+
+            <h1 data-i18n-html="home.title">
+                Uklonjivi dizajn za
+                <span>tvoju gitaru.</span>
+            </h1>
+
+            <p class="hero-description" data-i18n="home.description">
+                Trizajn pravi velike 3D printovane dekorativne dodatke za gitare —
+                dizajnirane da instrumentu daju upečatljiv, personalizovan i scenski izgled.
+            </p>
+
+            <div class="hero-actions">
+                <a href="product1.html" class="btn" data-i18n="home.viewProducts">Pogledaj proizvode</a>
+                <a href="#about-mini" class="ghost-btn" data-i18n="home.learnMore">Saznaj više</a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <strong data-i18n="home.statOneStrong">PLA</strong>
+                    <span data-i18n="home.statOneText">Precizna 3D izrada</span>
+                </div>
+
+                <div>
+                    <strong data-i18n="home.statTwoStrong">Uklonjivo</strong>
+                    <span data-i18n="home.statTwoText">Bez trajnog lepljenja</span>
+                </div>
+
+                <div>
+                    <strong data-i18n="home.statThreeStrong">Scena</strong>
+                    <span data-i18n="home.statThreeText">Upečatljiv izgled</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+
+            <div class="orbit-line orbit-one"></div>
+            <div class="orbit-line orbit-two"></div>
+
+            <div class="model-glow-shell">
+                <model-viewer
+                    src="modeli/logo.glb"
+                    camera-controls
+                    auto-rotate
+                    auto-rotate-delay="0"
+                    orientation="40deg 0deg 15deg"
+                    camera-orbit="0deg 75deg 10m"
+                    field-of-view="36deg"
+                    shadow-intensity="1"
+                    exposure="1.15"
+                    interaction-prompt="none"
+                    class="glow-model">
+                </model-viewer>
+            </div>
+
+            <div class="floating-card card-top">
+                <span data-i18n="home.mountingLabel">Postavljanje</span>
+                <strong data-i18n="home.mountingValue">Pomoću vakuuma</strong>
+            </div>
+
+            <div class="floating-card card-middle">
+                <span data-i18n="home.useCaseLabel">Namena</span>
+                <strong data-i18n="home.useCaseValue">Vizuelni stil gitare</strong>
+            </div>
+
+            <div class="floating-card card-bottom">
+                <span data-i18n="home.designLabel">Tip proizvoda</span>
+                <strong data-i18n="home.designValue">Dekorativni dodatak</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about-mini" class="mini-info">
+        <p data-i18n="home.miniInfo">
+            Proizvodi su zamišljeni kao uklonjivi 3D printovani elementi za gitariste
+            koji žele da njihov instrument izgleda drugačije, snažnije i ličnije —
+            bez trajnog menjanja gitare. Namenjeni su izgledu, ne zaštiti instrumenta.
+        </p>
+    </section>
+
+</main>
+
+<footer data-i18n="footer.rights">
+    © 2026 Trizajn — Sva prava zadržana
+</footer>
+
+<script src="language.js"></script>
+
+</body>
+</html>

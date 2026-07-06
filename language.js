@@ -1,41 +1,41 @@
 const translations = {
     sr: {
         "nav.home": "Početna",
-        "nav.products": "Proizvodi",
+        "nav.products": "Prototipovi",
 
-        "home.eyebrow": "UKLONJIVI DODACI ZA GITARU",
+        "home.eyebrow": "PROTOTIP UKLONJIVOG DODATKA ZA GITARU",
         "home.title": "Uklonjivi dizajn za <span>tvoju gitaru.</span>",
-        "home.description": "Trizajn pravi velike 3D printovane dekorativne dodatke za gitare — dizajnirane da instrumentu daju upečatljiv, personalizovan i scenski izgled.",
-        "home.viewProducts": "Pogledaj proizvode",
+        "home.description": "Trizajn razvija 3D printovane dekorativne dodatke za gitare — trenutno kao prototip namenjen testiranju izgleda, forme i interesovanja. Porudžbine i prodaja još nisu dostupne.",
+        "home.viewProducts": "Pogledaj prototipove",
         "home.learnMore": "Saznaj više",
 
         "home.statOneStrong": "PLA",
         "home.statOneText": "Precizna 3D izrada",
         "home.statTwoStrong": "Uklonjivo",
         "home.statTwoText": "Bez trajnog lepljenja",
-        "home.statThreeStrong": "Scena",
-        "home.statThreeText": "Upečatljiv izgled",
+        "home.statThreeStrong": "Prototip",
+        "home.statThreeText": "Faza razvoja",
 
         "home.mountingLabel": "Postavljanje",
         "home.mountingValue": "Pomoću vakuuma",
         "home.useCaseLabel": "Namena",
         "home.useCaseValue": "Vizuelni stil gitare",
-        "home.designLabel": "Tip proizvoda",
-        "home.designValue": "Dekorativni dodatak",
+        "home.designLabel": "Status",
+        "home.designValue": "Prototip dodatka",
 
-        "home.miniInfo": "Proizvodi su zamišljeni kao uklonjivi 3D printovani elementi za gitariste koji žele da njihov instrument izgleda drugačije, snažnije i ličnije — bez trajnog menjanja gitare. Namenjeni su izgledu, ne zaštiti instrumenta.",
+        "home.miniInfo": "Prikazani proizvodi su prototipovi uklonjivih 3D printovanih elemenata za gitariste koji žele da njihov instrument izgleda drugačije, snažnije i ličnije — bez trajnog menjanja gitare. Sajt trenutno služi za prezentaciju koncepta i testiranje interesovanja. Porudžbine, prodaja i online plaćanje nisu dostupni.",
 
-        "offers.label": "TRIZAJN / UKLONJIVI DODACI ZA GITARU",
-        "offers.title": "Wingspan <span>izaberi svoju konfiguraciju.</span>",
-        "offers.description": "Wingspan je dekorativni 3D štampani dodatak za gitaru dostupan kao levo krilo, desno krilo ili komplet oba krila. Svaka opcija je namenjena vizuelnom stilu instrumenta bez bušenja i trajnog lepljenja.",
+        "offers.label": "TRIZAJN / PROTOTIP UKLONJIVOG DODATKA ZA GITARU",
+        "offers.title": "Wingspan <span>prototip konfiguracije.</span>",
+        "offers.description": "Wingspan je prototip dekorativnog 3D štampanog dodatka za gitaru, prikazan kroz levo krilo, desno krilo i komplet oba krila. Opcije su predstavljene informativno, radi prikaza koncepta, forme i mogućeg izgleda na instrumentu. Porudžbine i prodaja trenutno nisu dostupne.",
 
-        "offers.preview": "3D prikaz",
-        "offers.rotate": "Prevuci za rotiranje",
+        "offers.previewLabel": "Slika prototipa",
+        "offers.previewNote": "Preview prototipa bez javnog 3D fajla",
 
-        "offers.left.kicker": "Pojedinačni element",
+        "offers.left.kicker": "Pojedinačni prototip",
         "offers.left.title": "Levo krilo",
-        "offers.left.price": "2500 RSD",
-        "offers.left.description": "Levo krilo je samostalni dekorativni element za jednu stranu gitare. Namenjeno je gitaristima koji žele asimetričan detalj ili postepeno građenje kompletnog Wingspan izgleda.",
+        "offers.left.price": "Prototip / nije u prodaji",
+        "offers.left.description": "Levo krilo je samostalni dekorativni element za jednu stranu gitare. Namenjeno je prikazu asimetričnog detalja i testiranju mogućeg Wingspan izgleda bez trajnog menjanja instrumenta.",
         "offers.left.featureOne": "1 deo",
         "offers.left.featureTwo": "Leva strana",
         "offers.left.featureThree": "Vakuum postavljanje",
@@ -43,10 +43,10 @@ const translations = {
         "offers.left.partsLabel": "Komada",
         "offers.left.partsValue": "1 deo",
 
-        "offers.right.kicker": "Pojedinačni element",
+        "offers.right.kicker": "Pojedinačni prototip",
         "offers.right.title": "Desno krilo",
-        "offers.right.price": "3000 RSD",
-        "offers.right.description": "Desno krilo je drugi samostalni element Wingspan sistema. Može se koristiti posebno ili kasnije kombinovati sa levim krilom za kompletan vizuelni efekat.",
+        "offers.right.price": "Prototip / nije u prodaji",
+        "offers.right.description": "Desno krilo je drugi samostalni element Wingspan sistema. Prikazano je kao deo koncepta koji se može posmatrati zasebno ili kao deo kompletnog vizuelnog rešenja.",
         "offers.right.featureOne": "1 deo",
         "offers.right.featureTwo": "Desna strana",
         "offers.right.featureThree": "Vakuum postavljanje",
@@ -54,13 +54,13 @@ const translations = {
         "offers.right.partsLabel": "Komada",
         "offers.right.partsValue": "1 deo",
 
-        "offers.bundle.kicker": "Najbolja ponuda",
+        "offers.bundle.kicker": "Prototip kompleta",
         "offers.bundle.title": "Komplet oba krila",
-        "offers.bundle.price": "5000 RSD / set",
-        "offers.bundle.description": "Komplet oba krila daje puni Wingspan izgled. Namenjen je gitaristima koji žele najjači vizuelni efekat i simetričnu scensku kompoziciju instrumenta.",
+        "offers.bundle.price": "Prototip kompleta / nije u prodaji",
+        "offers.bundle.description": "Komplet oba krila prikazuje puni Wingspan izgled. Namenjen je testiranju najjačeg vizuelnog efekta i simetrične scenske kompozicije instrumenta.",
         "offers.bundle.featureOne": "2 dela",
         "offers.bundle.featureTwo": "Levo + desno krilo",
-        "offers.bundle.featureThree": "Bolja cena seta",
+        "offers.bundle.featureThree": "Koncept kompleta",
         "offers.bundle.featureFour": "Puni Wingspan izgled",
         "offers.bundle.partsLabel": "Komada",
         "offers.bundle.partsValue": "2 dela",
@@ -68,146 +68,136 @@ const translations = {
         "offers.info.materialLabel": "Materijal",
         "offers.info.materialValue": "PLA",
         "offers.info.purposeLabel": "Namena",
-        "offers.info.purposeValue": "Scenski izgled",
+        "offers.info.purposeValue": "Vizuelni koncept",
 
-        "offers.contact": "Kontaktiraj za porudžbinu",
-        "offers.orderNote": "Za porudžbinu trenutno pošalji poruku preko kontakt kanala. Proizvod se prilagođava prema tipu i dimenzijama instrumenta.",
-        "offers.fitNote": "Napomena: Wingspan nije zaštitna oprema za gitaru. Namenjen je izgledu i prilagođava se prema tipu i dimenzijama instrumenta.",
+        "offers.contact": "Status prototipa",
+        "offers.orderNote": "Sajt i prikazani proizvodi su trenutno u fazi razvoja i testiranja interesovanja. Porudžbine, prodaja, online kupovina i plaćanje nisu dostupni. Trenutno ne postoji aktivan kontakt kanal za poručivanje proizvoda.",
+        "offers.fitNote": "Napomena: Wingspan nije zaštitna oprema za gitaru. Namenjen je isključivo vizuelnom izgledu. U ovoj fazi prikazan je kao prototip koncepta, bez aktivne prodaje.",
 
         "footer.rights": "© 2026 Trizajn — Sva prava zadržana"
     },
 
     en: {
         "nav.home": "Home",
-        "nav.products": "Products",
+        "nav.products": "Prototypes",
 
-        "home.eyebrow": "REMOVABLE GUITAR STYLING",
+        "home.eyebrow": "REMOVABLE GUITAR ACCESSORY PROTOTYPE",
         "home.title": "Removable design for <span>your guitar.</span>",
-        "home.description": "Trizajn creates large 3D printed decorative add-ons for guitars — designed to give the instrument a bold, personal, stage-ready look.",
-        "home.viewProducts": "View products",
+        "home.description": "Trizajn is developing 3D printed decorative guitar accessories — currently as prototypes for testing visual design, form, and interest. Orders and sales are not available yet.",
+        "home.viewProducts": "View prototypes",
         "home.learnMore": "Learn more",
 
         "home.statOneStrong": "PLA",
-        "home.statOneText": "Precise 3D print",
+        "home.statOneText": "Precise 3D production",
         "home.statTwoStrong": "Removable",
-        "home.statTwoText": "No permanent adhesive",
-        "home.statThreeStrong": "Stage",
-        "home.statThreeText": "Visual impact",
+        "home.statTwoText": "No permanent gluing",
+        "home.statThreeStrong": "Prototype",
+        "home.statThreeText": "Development phase",
 
         "home.mountingLabel": "Mounting",
         "home.mountingValue": "Vacuum-based",
-        "home.useCaseLabel": "Use case",
+        "home.useCaseLabel": "Purpose",
         "home.useCaseValue": "Visual guitar styling",
-        "home.designLabel": "Product type",
-        "home.designValue": "Decorative add-on",
+        "home.designLabel": "Status",
+        "home.designValue": "Accessory prototype",
 
-        "home.miniInfo": "The products are designed as removable 3D printed elements for guitarists who want their instrument to look different, stronger, and more personal — without permanently modifying the guitar. They are made for visual styling, not protection.",
+        "home.miniInfo": "The displayed products are prototypes of removable 3D printed elements for guitarists who want their instrument to look different, stronger, and more personal — without permanently modifying the guitar. The website currently serves as a concept presentation and interest test. Orders, sales, and online payment are not available.",
 
-        "offers.label": "TRIZAJN / REMOVABLE GUITAR STYLING",
-        "offers.title": "Wingspan <span>choose your configuration.</span>",
-        "offers.description": "Wingspan is a decorative 3D printed guitar add-on available as a left wing, right wing, or full two-wing set. Each option is made for visual styling without drilling or permanent adhesive.",
+        "offers.label": "TRIZAJN / REMOVABLE GUITAR ACCESSORY PROTOTYPE",
+        "offers.title": "Wingspan <span>prototype configurations.</span>",
+        "offers.description": "Wingspan is a prototype decorative 3D printed guitar accessory, shown as a left wing, right wing, and full set. The options are presented for concept, form, and visual testing only. Orders and sales are currently not available.",
 
-        "offers.preview": "3D Preview",
-        "offers.rotate": "Drag to rotate",
+        "offers.previewLabel": "Prototype image",
+        "offers.previewNote": "Prototype preview without a public 3D file",
 
-        "offers.left.kicker": "Single element",
+        "offers.left.kicker": "Single prototype",
         "offers.left.title": "Left wing",
-        "offers.left.price": "2500 RSD",
-        "offers.left.description": "The left wing is a standalone decorative element for one side of the guitar. It is made for guitarists who want an asymmetrical detail or want to gradually build the complete Wingspan look.",
+        "offers.left.price": "Prototype / not for sale",
+        "offers.left.description": "The left wing is a standalone decorative element for one side of the guitar. It is shown for testing an asymmetrical detail and a possible Wingspan look without permanently modifying the instrument.",
         "offers.left.featureOne": "1 part",
         "offers.left.featureTwo": "Left side",
         "offers.left.featureThree": "Vacuum mounting",
-        "offers.left.featureFour": "No permanent adhesive",
-        "offers.left.partsLabel": "Pieces",
+        "offers.left.featureFour": "No permanent gluing",
+        "offers.left.partsLabel": "Parts",
         "offers.left.partsValue": "1 part",
 
-        "offers.right.kicker": "Single element",
+        "offers.right.kicker": "Single prototype",
         "offers.right.title": "Right wing",
-        "offers.right.price": "3000 RSD",
-        "offers.right.description": "The right wing is the second standalone element of the Wingspan system. It can be used separately or later combined with the left wing for the complete visual effect.",
+        "offers.right.price": "Prototype / not for sale",
+        "offers.right.description": "The right wing is the second standalone element of the Wingspan system. It is shown as part of a concept that can be viewed separately or as part of the complete visual solution.",
         "offers.right.featureOne": "1 part",
         "offers.right.featureTwo": "Right side",
         "offers.right.featureThree": "Vacuum mounting",
-        "offers.right.featureFour": "No permanent adhesive",
-        "offers.right.partsLabel": "Pieces",
+        "offers.right.featureFour": "No permanent gluing",
+        "offers.right.partsLabel": "Parts",
         "offers.right.partsValue": "1 part",
 
-        "offers.bundle.kicker": "Best offer",
-        "offers.bundle.title": "Complete two-wing set",
-        "offers.bundle.price": "5000 RSD / set",
-        "offers.bundle.description": "The complete two-wing set gives the full Wingspan look. It is made for guitarists who want the strongest visual effect and a symmetrical stage-ready instrument composition.",
+        "offers.bundle.kicker": "Set prototype",
+        "offers.bundle.title": "Full two-wing set",
+        "offers.bundle.price": "Set prototype / not for sale",
+        "offers.bundle.description": "The full two-wing set shows the complete Wingspan look. It is intended for testing the strongest visual effect and a symmetrical stage-oriented composition for the instrument.",
         "offers.bundle.featureOne": "2 parts",
         "offers.bundle.featureTwo": "Left + right wing",
-        "offers.bundle.featureThree": "Better set price",
+        "offers.bundle.featureThree": "Set concept",
         "offers.bundle.featureFour": "Full Wingspan look",
-        "offers.bundle.partsLabel": "Pieces",
+        "offers.bundle.partsLabel": "Parts",
         "offers.bundle.partsValue": "2 parts",
 
         "offers.info.materialLabel": "Material",
         "offers.info.materialValue": "PLA",
         "offers.info.purposeLabel": "Purpose",
-        "offers.info.purposeValue": "Stage look",
+        "offers.info.purposeValue": "Visual concept",
 
-        "offers.contact": "Contact to order",
-        "offers.orderNote": "To order, send a message through the available contact channels. The product is adjusted according to the type and dimensions of the instrument.",
-        "offers.fitNote": "Note: Wingspan is not protective gear for the guitar. It is made for visual styling and is adjusted according to the type and dimensions of the instrument.",
+        "offers.contact": "Prototype status",
+        "offers.orderNote": "The website and displayed products are currently in a development and interest-testing phase. Orders, sales, online purchasing, and payment are not available. There is currently no active contact channel for ordering products.",
+        "offers.fitNote": "Note: Wingspan is not protective equipment for guitars. It is intended only for visual appearance. At this stage, it is shown as a concept prototype, without active sales.",
 
         "footer.rights": "© 2026 Trizajn — All rights reserved"
     }
 };
 
-const DEFAULT_LANGUAGE = "sr";
-const STORAGE_KEY = "trizajnLanguage";
+const langToggle = document.getElementById("langToggle");
 
-function applyLanguage(language) {
-    const selectedLanguage = translations[language] ? language : DEFAULT_LANGUAGE;
+function applyLanguage(lang) {
+    const dictionary = translations[lang] || translations.sr;
 
-    document.documentElement.lang = selectedLanguage;
+    document.documentElement.lang = lang;
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
         const key = element.getAttribute("data-i18n");
-        const translatedText = translations[selectedLanguage][key];
 
-        if (translatedText) {
-            element.textContent = translatedText;
+        if (dictionary[key]) {
+            element.textContent = dictionary[key];
         }
     });
 
     document.querySelectorAll("[data-i18n-html]").forEach((element) => {
         const key = element.getAttribute("data-i18n-html");
-        const translatedHtml = translations[selectedLanguage][key];
 
-        if (translatedHtml) {
-            element.innerHTML = translatedHtml;
+        if (dictionary[key]) {
+            element.innerHTML = dictionary[key];
         }
     });
 
-    const langToggle = document.getElementById("langToggle");
-
     if (langToggle) {
-        langToggle.textContent = selectedLanguage === "sr" ? "EN" : "SR";
-
+        langToggle.textContent = lang === "sr" ? "EN" : "SR";
         langToggle.setAttribute(
             "aria-label",
-            selectedLanguage === "sr" ? "Switch to English" : "Prebaci na srpski"
+            lang === "sr" ? "Switch language to English" : "Promeni jezik na srpski"
         );
     }
+
+    localStorage.setItem("trizajnLanguage", lang);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const savedLanguage = localStorage.getItem(STORAGE_KEY) || DEFAULT_LANGUAGE;
+const savedLanguage = localStorage.getItem("trizajnLanguage") || "sr";
+applyLanguage(savedLanguage);
 
-    applyLanguage(savedLanguage);
+if (langToggle) {
+    langToggle.addEventListener("click", () => {
+        const currentLanguage = localStorage.getItem("trizajnLanguage") || "sr";
+        const nextLanguage = currentLanguage === "sr" ? "en" : "sr";
 
-    const langToggle = document.getElementById("langToggle");
-
-    if (langToggle) {
-        langToggle.addEventListener("click", () => {
-            const currentLanguage = localStorage.getItem(STORAGE_KEY) || DEFAULT_LANGUAGE;
-            const nextLanguage = currentLanguage === "sr" ? "en" : "sr";
-
-            localStorage.setItem(STORAGE_KEY, nextLanguage);
-            applyLanguage(nextLanguage);
-        });
-    }
-});
+        applyLanguage(nextLanguage);
+    });
+}

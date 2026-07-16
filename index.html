@@ -4,13 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Trizajn</title>
+
+    <meta name="description"
+        content="Trizajn razvija uklonjive 3D printovane dekorativne dodatke za gitare. Pogledajte prototipove i koncept proizvoda.">
+
+    <!-- Ikonica sajta -->
+    <link rel="icon" type="image/jpeg" href="slike/TrizajnLogoIg.jpg">
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
 
-    <script type="module"
+    <script
+        type="module"
         src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
     </script>
 </head>
@@ -19,14 +29,30 @@
 
 <header>
     <div class="logo-container">
-        <img src="slike/TrizajnLogoSajt.png" alt="Trizajn logo" class="logo-img">
+        <img
+            src="slike/TrizajnLogoSajt.png"
+            alt="Trizajn logo"
+            class="logo-img">
+
         <div class="logo-text">Trizajn</div>
     </div>
 
     <nav>
-        <a href="index.html" data-i18n="nav.home">Početna</a>
-        <a href="product1.html" data-i18n="nav.products">Prototipovi</a>
-        <button class="lang-btn" id="langToggle" type="button" aria-label="Switch language">EN</button>
+        <a href="index.html" data-i18n="nav.home">
+            Početna
+        </a>
+
+        <a href="product1.html" data-i18n="nav.products">
+            Prototipovi
+        </a>
+
+        <button
+            class="lang-btn"
+            id="langToggle"
+            type="button"
+            aria-label="Promeni jezik">
+            EN
+        </button>
     </nav>
 </header>
 
@@ -35,7 +61,10 @@
     <section class="trizajn-hero">
 
         <div class="hero-copy">
-            <p class="eyebrow" data-i18n="home.eyebrow">PROTOTIP UKLONJIVOG DODATKA ZA GITARU</p>
+
+            <p class="eyebrow" data-i18n="home.eyebrow">
+                PROTOTIP UKLONJIVOG DODATKA ZA GITARU
+            </p>
 
             <h1 data-i18n-html="home.title">
                 Uklonjivi dizajn za
@@ -49,25 +78,53 @@
             </p>
 
             <div class="hero-actions">
-                <a href="product1.html" class="btn" data-i18n="home.viewProducts">Pogledaj prototipove</a>
-                <a href="#about-mini" class="ghost-btn" data-i18n="home.learnMore">Saznaj više</a>
+                <a
+                    href="product1.html"
+                    class="btn"
+                    data-i18n="home.viewProducts">
+                    Pogledaj prototipove
+                </a>
+
+                <a
+                    href="#about-mini"
+                    class="ghost-btn"
+                    data-i18n="home.learnMore">
+                    Saznaj više
+                </a>
             </div>
 
             <div class="hero-stats">
+
                 <div>
-                    <strong data-i18n="home.statOneStrong">PLA</strong>
-                    <span data-i18n="home.statOneText">Precizna 3D izrada</span>
+                    <strong data-i18n="home.statOneStrong">
+                        PLA
+                    </strong>
+
+                    <span data-i18n="home.statOneText">
+                        Precizna 3D izrada
+                    </span>
                 </div>
 
                 <div>
-                    <strong data-i18n="home.statTwoStrong">Uklonjivo</strong>
-                    <span data-i18n="home.statTwoText">Bez trajnog lepljenja</span>
+                    <strong data-i18n="home.statTwoStrong">
+                        Uklonjivo
+                    </strong>
+
+                    <span data-i18n="home.statTwoText">
+                        Bez trajnog lepljenja
+                    </span>
                 </div>
 
                 <div>
-                    <strong data-i18n="home.statThreeStrong">Prototip</strong>
-                    <span data-i18n="home.statThreeText">Faza razvoja</span>
+                    <strong data-i18n="home.statThreeStrong">
+                        Prototip
+                    </strong>
+
+                    <span data-i18n="home.statThreeText">
+                        Faza razvoja
+                    </span>
                 </div>
+
             </div>
         </div>
 
@@ -77,6 +134,7 @@
             <div class="orbit-line orbit-two"></div>
 
             <div class="model-glow-shell">
+
                 <model-viewer
                     src="modeli/logo.glb"
                     camera-controls
@@ -90,21 +148,37 @@
                     interaction-prompt="none"
                     class="glow-model">
                 </model-viewer>
+
             </div>
 
             <div class="floating-card card-top">
-                <span data-i18n="home.mountingLabel">Postavljanje</span>
-                <strong data-i18n="home.mountingValue">Pomoću vakuuma</strong>
+                <span data-i18n="home.mountingLabel">
+                    Postavljanje
+                </span>
+
+                <strong data-i18n="home.mountingValue">
+                    Pomoću vakuuma
+                </strong>
             </div>
 
             <div class="floating-card card-middle">
-                <span data-i18n="home.useCaseLabel">Namena</span>
-                <strong data-i18n="home.useCaseValue">Vizuelni stil gitare</strong>
+                <span data-i18n="home.useCaseLabel">
+                    Namena
+                </span>
+
+                <strong data-i18n="home.useCaseValue">
+                    Vizuelni stil gitare
+                </strong>
             </div>
 
             <div class="floating-card card-bottom">
-                <span data-i18n="home.designLabel">Status</span>
-                <strong data-i18n="home.designValue">Prototip dodatka</strong>
+                <span data-i18n="home.designLabel">
+                    Status
+                </span>
+
+                <strong data-i18n="home.designValue">
+                    Prototip dodatka
+                </strong>
             </div>
 
         </div>
@@ -112,12 +186,15 @@
     </section>
 
     <section id="about-mini" class="mini-info">
+
         <p data-i18n="home.miniInfo">
-            Prikazani proizvodi su prototipovi uklonjivih 3D printovanih elemenata za gitariste
-            koji žele da njihov instrument izgleda drugačije, snažnije i ličnije —
-            bez trajnog menjanja gitare. Sajt trenutno služi za prezentaciju koncepta i
-            testiranje interesovanja. Porudžbine, prodaja i online plaćanje nisu dostupni.
+            Prikazani proizvodi su prototipovi uklonjivih 3D printovanih elemenata
+            za gitariste koji žele da njihov instrument izgleda drugačije, snažnije
+            i ličnije — bez trajnog menjanja gitare. Sajt trenutno služi za
+            prezentaciju koncepta i testiranje interesovanja. Porudžbine, prodaja
+            i online plaćanje nisu dostupni.
         </p>
+
     </section>
 
 </main>
@@ -129,4 +206,5 @@
 <script src="language.js"></script>
 
 </body>
+
 </html>
